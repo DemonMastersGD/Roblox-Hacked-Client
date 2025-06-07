@@ -1,78 +1,45 @@
-
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #1c1c1c;
-  color: white;
-}
-
-.navbar {
-  background-color: #111;
-  padding: 10px 20px;
+  background-color: #f2f2f2;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
+  height: 100vh;
 }
 
-.logo img.roblox-logo {
-  height: 28px;
-}
-
-.nav-links a {
-  margin: 0 10px;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.nav-links a:hover {
-  color: #ccc;
-}
-
-.login-box {
-  max-width: 350px;
-  background: #2c2c2c;
-  padding: 30px;
-  margin: 100px auto;
-  text-align: center;
+.login-container {
+  background: white;
+  padding: 2rem;
   border-radius: 10px;
-  box-shadow: 0 0 10px #000;
-}
-
-.avatar {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
-input[type="text"], input[type="password"] {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  margin: 15px 0;
-  border: none;
-  border-radius: 5px;
-  background: #444;
-  color: white;
-}
-
-.login-btn, .alt-btn, .signup {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border: none;
-  border-radius: 5px;
-  background-color: #3c3c3c;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
-  text-decoration: none;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 300px;
   text-align: center;
 }
 
-.login-btn:hover, .alt-btn:hover, .signup:hover {
-  background-color: #505050;
+input {
+  width: 90%;
+  padding: 0.5rem;
+  margin: 0.7rem 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 95%;
+  padding: 0.7rem;
+  background-color: #ea3333;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c12b2b;
+}
+
+img {
+  max-width: 150px;
+  margin-bottom: 1rem;
 }
